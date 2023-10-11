@@ -1,0 +1,16 @@
+.floatingdiv{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0px 10px 15px 3px hsl(39, 100%, 50%,.5);
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.f-pic{
+    width: 50px;
+    margin-right: 1rem;
+}
+.floatingdiv>span{
+    font-family: sans-serif;
+    font-size: 16px;
+}

@@ -1,0 +1,14 @@
+
+.p-right{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: flex-start;
+    
+}
+.p-right>*{
+    position: absolute;
+    
+}
+

@@ -1,0 +1,35 @@
+.contact{
+    padding: 0% 10%;
+    margin-top: 14rem;
+}
+.contact-right{
+    display: flex;
+    
+    position: relative;
+    justify-content: center;
+}
+.contact-right>form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+.contact-right .user{
+    width: 25rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid orange;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px 3px orange;
+}
+textarea{
+    height: 5rem!important;
+    resize: none;
+}
+.c-btn{
+    box-shadow: 0px 0px 10px 3px orange;
+    color: white;
+    background-color: orange;
+}

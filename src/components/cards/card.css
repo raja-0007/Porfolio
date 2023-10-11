@@ -1,0 +1,96 @@
+.card{
+    width: max-content;
+    height: fit-content;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    background-color: hsl(0, 0%, 75%,.26);
+    border: 7px solid orange;
+    box-shadow: 0px 10px 24px 3px  hsl(39, 100%, 50%,.5) ;
+    border-radius: 20px;
+    padding: 1rem 26px 2rem 26px ;
+}
+.carddiv-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    justify-content: center;
+    gap: 3rem;
+}
+.card>:nth-child(1){
+    width: 700px;
+    margin-bottom: -1.3rem;
+}
+.carddiv-body>:nth-child(1){
+    font-size: 2em;
+}
+.carddiv-body>:nth-child(2){
+    color: gray;
+    font-size: 16px;
+    text-align: justify;
+}
+.carddiv-body>:nth-child(3){
+    text-decoration: none;
+}
+
+.c-btn{
+    background-color: white;
+    box-shadow: 0px 19px 60px hsl(0, 0%, 0%,.08);
+   padding: 5px 10px;
+    border-radius: 7px;
+    border: none;
+    font-size: 16px;
+    color: #5290FD;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+@media screen and (max-width:998px) {
+    .card{
+        flex-direction: column;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem ;
+    }
+    .carddiv-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .card>:nth-child(1){
+        width: 500px;
+        margin-bottom: -1.3rem;
+    }
+    
+}
+@media screen and (max-width:798px) {
+    .card{
+        flex-direction: column;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem ;
+    }
+    
+    .card>:nth-child(1){
+        width: 500px;
+        margin-bottom: -1.3rem;
+    }
+    
+}
+@media screen and (max-width:599px) {
+    .card>:nth-child(1){
+        width: 210px;
+        margin-bottom: -1.3rem;
+    }
+}
