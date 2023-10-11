@@ -7,7 +7,7 @@ function Card({ emoji, heading, detail, link }) {
       <div className='carddiv-body'>
         <span>{heading}</span>
         <span>{detail}</span>
-        <a href={link}>
+        <a href={link} target='_blank'>
         <button className='c-btn'>visit</button>
         </a>
         
