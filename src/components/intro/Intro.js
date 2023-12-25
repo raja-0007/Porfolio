@@ -16,7 +16,7 @@ function Intro() {
             <div className='col-lg-6 i-left'>
                 <div className='i-name'>
                     <span style={{
-                        background: darkmode ? 'black' : '',
+                        
                         color: darkmode ? 'white' : ''
                     }}>Hi! I am</span>
                     <span>Raja Daragani</span>
