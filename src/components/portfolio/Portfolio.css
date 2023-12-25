@@ -25,7 +25,7 @@
 .portfolio .swiper{
     margin-top: 30px;
     width: 100%;
-    height: 65vh;
+    height: 75vh;
     
     
 }
@@ -33,6 +33,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    
 }
 
 .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
@@ -52,12 +53,27 @@
        text-align: center;
       
     }
+    .swiperdiv{
+        height: 80vh;
+    }
     .portfolio .swiper{
         margin-top: 30px;
+        width: 97%;
+        height: 100%;
+        
+        
+        
+    }
+    
+    .swiper-slide, .swiper-slide-active{
+        height: 70vh;
         width: 100%;
-        height: 60vh;
-        
-        
+    }
+    .portfolio .card{
+        width: 92%;
+    }
+    .card .carddiv-body{
+        width: 100%;
     }
 }
 @media screen and (max-width:598px) {
@@ -69,11 +85,16 @@
        justify-content: center;
        text-align: center;
       
+      
+    }
+    .portfolio .card{
+        width: 94%;
     }
     .portfolio .swiper{
         margin-top: 30px;
         width: 100%;
-        height: 44vh;
+        height: 75vh;
+        
         
         
     }

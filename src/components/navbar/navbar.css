@@ -4,7 +4,7 @@
     
 }
 .n-wrapper{
-    height: max-content;
+    height: 70px;
     width: 100vw;
     margin: 0%;
     padding: 0% 5%;
@@ -13,6 +13,10 @@
     align-items: center;
     font-size: 20px;
     width: 100vw;
+    position: fixed;
+    top: 0%;
+    background-color: hsl(0, 0%, 75%,.3);
+    transition: all .5s;
     
 }
 .n-left{
@@ -35,6 +39,7 @@
     align-items: center;
     
 }
+
 .menu{
     display: flex;
     justify-content: flex-end;
@@ -61,6 +66,7 @@
     text-decoration: none;
     color: black;
 }
+
 .n-name{
     font-weight: 600;
     font-size: 1.1em;
@@ -74,7 +80,7 @@
     outline: 0px;
     color: white;
     border: 1px solid hsl(39, 100%, 50%);
-    box-shadow: 0px 5px 24px 1px hsl(39, 100%, 50%) ;
+    box-shadow: 0px 0px 10px 1px hsl(39, 100%, 50%) ;
 }
 .btns:hover{
     background-color: white;
@@ -125,6 +131,7 @@
     }
     
     .n-left{
+        width: 100%;
         justify-content: space-between;
         
     }

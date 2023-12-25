@@ -8,57 +8,63 @@ import $ from 'jquery'
 function Navbar() {
   const theme = useContext(themecontext)
   const darkmode = theme.state.darkmode
-  
 
-  
+  window.addEventListener('scroll',()=>{
+    
+    if(window.scrollY >100){
+     
+      document.getElementById('Navbar').style.height = '50px'
+    }
+    else{
+      document.getElementById('Navbar').style.height = '70px'
+    }
+  })
+
+
   return (
-    <div className='row n-wrapper  mt-3' id='Navbar'>
+    <div className='row n-wrapper nav sticky-top' id='Navbar'>
       <div className='col-md-5 n-left '>
         <div className='n-name'>Raja</div>
         <span>
-        <Toggle />
-        
-        
+          <Toggle />
+
+
         </span>
         <div className='menu'>
-        <Link className='navlink' spy={true} to={'Navbar'} smooth={true}><span class="material-symbols-outlined">
-home
-</span></Link>
+          <Link className='navlink' spy={true} to={'Intro'} smooth={true}><span class="material-symbols-outlined">
+            home
+          </span></Link>
           <Link className='navlink' spy={true} to={'Skills'} smooth={true}>
-          <span class="material-symbols-outlined">
-school
-</span>
+            <span class="material-symbols-outlined">
+              school
+            </span>
           </Link>
           <Link className='navlink' spy={true} to={'Portfolio'} smooth={true}>
-          <span class="material-symbols-outlined">
-local_activity
-</span>
+            <span class="material-symbols-outlined">
+              local_activity
+            </span>
           </Link>
           <Link className='navlink' spy={true} to={'Contact'} smooth={true}>
-          <span class="material-symbols-outlined">
-contact_mail
-</span>
+            <span class="material-symbols-outlined">
+              contact_mail
+            </span>
           </Link>
-          
-          
+
+
         </div>
-        
+
       </div>
-      
-      
-      
-          
-      
+
+
+
+
+
       <div className='col-md-7 n-right ' id='n-right'>
         <div className='n-list '>
           <ul className='n-ul' >
 
-            <Link spy={true} to={'Navbar'} smooth={true}>
-              <li style={{
-                background: darkmode ? 'black' : '',
-                color: darkmode ? 'white' : ''
-              }}
-              >Home</li>
+            <Link spy={true} to={'Intro'} smooth={true}>
+              <li>Home</li>
             </Link>
 
             <Link spy={true} to={'Skills'} smooth={true}>

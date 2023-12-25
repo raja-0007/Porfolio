@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './skills.css'
 
 import nodejs from '../images/nodejs.png'
@@ -10,21 +10,33 @@ import jquery from '../images/jquery.png'
 import css from '../images/css.png'
 import bootstrap from '../images/bootstrap.png'
 import javascript from '../images/javascript.png'
-import resume from './MyResume.pdf'
+import resume from './My Resume4.pdf'
 import { motion } from 'framer-motion'
+import { themecontext } from '../../Context'
 function Skills() {
+    const theme = useContext(themecontext)
+    const darkmode = theme.state.darkmode
 
     return (
         <div className='row skills' id='Skills'>
             <div className='col-lg-6 skills-left'>
-                <span>My Awesome</span>
+                <span style={{
+                    background: darkmode ? 'black' : '',
+                    color: darkmode ? 'white' : ''
+                }}>My Awesome</span>
                 <span>skills</span>
                 <span>
-                    <span>Web Technologies</span>
+                    <span style={{
+                        background: darkmode ? 'black' : '',
+                        color: darkmode ? 'white' : ''
+                    }}>Web Technologies</span>
                     <div className='skillslist'>
                         <span>
                             <span className='skilldetails'>
-                                <span>Frontend</span>
+                                <span style={{
+                                    background: darkmode ? 'hsl(0, 0%, 0%,.68)' : '',
+                                    color: darkmode ? 'white' : ''
+                                }}>Frontend Technologies</span>
                                 <ul>
                                     <li>HTML</li>
                                     <li>CSS</li>
@@ -35,7 +47,11 @@ function Skills() {
                             </span>
 
                             <span className='skilldetails'>
-                                <span>Frontend Libraries</span>
+
+                                <span style={{
+                                    background: darkmode ? 'hsl(0, 0%, 0%,.68)' : '',
+                                    color: darkmode ? 'white' : ''
+                                }}>Frontend Libraries</span>
                                 <ul>
                                     <li>Bootstrap</li>
                                     <li>Jquery</li>
@@ -46,16 +62,22 @@ function Skills() {
                         </span>
                         <span >
                             <span className='skilldetails'>
-                                <span>Backend Technologies</span>
+
+                                <span style={{
+                                    background: darkmode ? 'hsl(0, 0%, 0%,.68)' : '',
+                                    color: darkmode ? 'white' : ''
+                                }}>Backend Technologies</span>
                                 <ul>
                                     <li>Nodejs</li>
                                 </ul>
                             </span>
 
                             <span className='skilldetails'>
-                                <span>
-                                    Backend Frameworks
-                                </span>
+
+                                <span style={{
+                                    background: darkmode ? 'hsl(0, 0%, 0%,.68)' : '',
+                                    color: darkmode ? 'white' : ''
+                                }}>Backend Frameworks</span>
                                 <ul>
                                     <li>Expressjs</li>
                                 </ul>
@@ -64,17 +86,21 @@ function Skills() {
                         </span>
                         <span >
                             <span className='skilldetails'>
-                                <span>
-                                    Database
-                                </span>
+                            
+                                <span style={{
+                                    background: darkmode ? 'hsl(0, 0%, 0%,.68)' : '',
+                                    color: darkmode ? 'white' : ''
+                                }}>Database</span>
                                 <ul>
                                     <li>MongoDB</li>
                                 </ul>
                             </span>
                             <span className='skilldetails'>
-                                <span>
-                                    Additional Skills
-                                </span>
+                            
+                                <span style={{
+                                    background: darkmode ? 'hsl(0, 0%, 0%,.68)' : '',
+                                    color: darkmode ? 'white' : ''
+                                }}>Additional Skills</span>
                                 <ul>
                                     <li>Git Hub</li>
                                     <li>Git Bash</li>

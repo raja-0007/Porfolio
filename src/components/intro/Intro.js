@@ -5,13 +5,14 @@ import crown from '../images/crown.png'
 import Floatingdiv from '../floatingdiv/Floatingdiv'
 import { motion } from 'framer-motion'
 import { themecontext } from '../../Context'
+import { Link } from 'react-scroll'
 
 function Intro() {
     const transiton = { duration: 2, type: 'spring' }
     const theme = useContext(themecontext)
     const darkmode = theme.state.darkmode
     return (
-        <div className='row intro'>
+        <div className='row intro' id='Intro'>
             <div className='col-lg-6 i-left'>
                 <div className='i-name'>
                     <span style={{
@@ -24,7 +25,8 @@ function Intro() {
                     </span>
 
                 </div>
-                <button className='btns i-btn'>Hire me</button>
+                <Link className='btns i-btn' spy={true} to={'Contact'} smooth={true}>Hire me</Link>
+                
                 <div className='i-icons'>
                     <a href='https://github.com/raja-0007' target='_blank'>
                     <i class="fa-brands fa-github"></i>
@@ -50,7 +52,7 @@ function Intro() {
                     whileInView={{ right: '10%', top: '20%' }}
                     transition={transiton}
                     className='i-floatingdiv'>
-                    <Floatingdiv image={crown} txt1={'Web'} txt2={'Developer'} />
+                    <Floatingdiv image={crown} txt1={'Full Stack'} txt2={'Developer'} />
                 </motion.div>
                 <motion.div
                     initial={{ top: '73%', left: '-11%' }}

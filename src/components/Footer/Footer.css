@@ -1,30 +1,60 @@
 .f-img{
     width: 100%;
+    height: 100%;
+    background-image: url(../images/wave.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .footer{
     display: flex;
     align-items: center;
-    margin: -0.5rem -3.5rem;
-    
-    margin-top: -7rem;
+    height: 300px;
     position: relative;
     
 }
 .footer-content{
+    width: max-content;
     position: absolute;
-    top: 0%;
+    bottom: 10%;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 4rem;
-    color: white;
-    margin-top: 9rem;
+    justify-content: space-evenly;
+    
+    gap: 1rem;
+    color: hsl(0, 0%, 100%,.7);
+   
 }
-.f-icons{
+.footer-content>:nth-child(1){
     color: white;
     font-size: 3rem;
-    display: flex;
-    gap: 2rem;
 }
+.f-icons{
+    
+    display: flex;
+    
+    gap: 3rem;
+}
+.f-icons>*{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%,.7);
+    font-size: 4rem;
+}
+.f-icons>*:hover{
+    
+    color: white;
+}
+@media screen and (max-width:999px) {
+    .footer{
+        height: 350px;
+    }
+    .footer-content{
+        bottom: 5%;
+        flex-direction: column;
+    }
+    .footer-content>:nth-child(1){
+        font-size: 2rem;
+    }
+}
+

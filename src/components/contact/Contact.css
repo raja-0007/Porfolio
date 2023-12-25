@@ -1,20 +1,28 @@
 .contact{
     padding: 0% 10%;
-    margin-top: 14rem;
+    margin-top: 10rem;
+    
+}
+.contact-left{
+    height: max-content;
+   
+
+    
 }
 .contact-right{
     display: flex;
     
-    position: relative;
     justify-content: center;
+    
 }
 .contact-right>form{
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 3rem;
+    
 }
-.contact-right .user{
+.contact-right .userinp{
     width: 25rem;
     height: 2rem;
     padding: 0.3em;
@@ -24,7 +32,7 @@
     font-size: 16px;
     box-shadow: 0px 0px 10px 3px orange;
 }
-textarea{
+.c-textarea{
     height: 5rem!important;
     resize: none;
 }
@@ -32,4 +40,30 @@ textarea{
     box-shadow: 0px 0px 10px 3px orange;
     color: white;
     background-color: orange;
+}
+@media screen and (max-width:998px) {
+    .contact-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    
+}
+@media screen and (max-width:599px) {
+    .contact-left{
+        margin-top: 0rem;
+        margin-bottom: 4rem;
+    }
+    .contact-right .userinp{
+        width: 20rem;
+        height: 2rem;
+        padding: 0.3em;
+        outline: none;
+        border: 2px solid orange;
+        border-radius: 8px;
+        font-size: 16px;
+        box-shadow: 0px 0px 10px 3px orange;
+    }
 }

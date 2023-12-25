@@ -13,6 +13,7 @@
     box-shadow: 0px 10px 24px 3px  hsl(39, 100%, 50%,.5) ;
     border-radius: 20px;
     padding: 1rem 26px 2rem 26px ;
+    margin: 0% 4%;
 }
 .carddiv-body{
     display: flex;
@@ -23,7 +24,7 @@
     gap: 3rem;
 }
 .card>:nth-child(1){
-    width: 700px;
+    width: 800px;
     margin-bottom: -1.3rem;
 }
 .carddiv-body>:nth-child(1){
@@ -41,9 +42,9 @@
 .c-btn{
     background-color: white;
     box-shadow: 0px 19px 60px hsl(0, 0%, 0%,.08);
-   padding: 5px 10px;
+    padding: 5px 10px;
     border-radius: 7px;
-    border: none;
+    border: 1px solid hsl(39, 100%, 50%);
     font-size: 16px;
     color: #5290FD;
     width: 100px;
@@ -90,7 +91,12 @@
 }
 @media screen and (max-width:599px) {
     .card>:nth-child(1){
-        width: 210px;
+        width: 350px;
         margin-bottom: -1.3rem;
+    }
+    .card{
+        margin: 0% 3%;
+        box-shadow: 0px 0px 10px 3px  hsl(39, 100%, 50%,.5) ;
+        
     }
 }
