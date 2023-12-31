@@ -15,8 +15,8 @@
     width: 100vw;
     position: fixed;
     top: 0%;
-    background-color: hsl(0, 0%, 75%,.3);
-    transition: all .3s;
+   
+    transition: all .5s;
     
 }
 .n-left{

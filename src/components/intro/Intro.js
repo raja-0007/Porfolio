@@ -48,15 +48,15 @@ function Intro() {
                     <img src={pic} className='i-pic'></img>
                 </div>
                 <motion.div
-                    initial={{ top: '17%', right: '0%' }}
-                    whileInView={{ right: '10%', top: '20%' }}
+                    initial={{ top: '15%', right: '0%' }}
+                    whileInView={{ right: '10%', top: '18%' }}
                     transition={transiton}
                     className='i-floatingdiv'>
                     <Floatingdiv image={crown} txt1={'Full Stack'} txt2={'Developer'} />
                 </motion.div>
                 <motion.div
-                    initial={{ top: '73%', left: '-11%' }}
-                    whileInView={{ top: '70%', left: '1%' }}
+                    initial={{ top: '75%', left: '-11%' }}
+                    whileInView={{ top: '72%', left: '1%' }}
                     transition={transiton}
                     className='i-floatingdiv2'>
                     <Floatingdiv image={crown} txt1={'Best Design'} txt2={'and Development'} />

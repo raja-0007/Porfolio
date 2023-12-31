@@ -14,9 +14,11 @@ function Navbar() {
     if(window.scrollY >100){
      
       document.getElementById('Navbar').style.height = '50px'
+      document.getElementById('Navbar').style.backgroundColor = 'hsl(0, 0%, 75%,.3)'
     }
     else{
       document.getElementById('Navbar').style.height = '70px'
+      document.getElementById('Navbar').style.backgroundColor = ''
     }
   })
 
