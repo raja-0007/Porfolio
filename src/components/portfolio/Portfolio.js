@@ -2,9 +2,9 @@ import React, { useContext } from 'react'
 import './Portfolio.css'
 import Card from '../cards/Card'
 import prj1 from '../images/Screenshot (198).png'
-import prj2 from '../images/Screenshot (200).png'
-import prj3 from '../images/Screenshot (201).png'
-import prj4 from '../images/Screenshot (211).png'
+import Agro from '../images/Agro.png'
+import SkillSphere from '../images/SkillSphere.png'
+import ByteBLOG from '../images/Screenshot (211).png'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination } from 'swiper/modules'
 import 'swiper/css/pagination'
@@ -28,13 +28,29 @@ function Portfolio() {
                     slidesPerView={1}
 
                     pagination={{ clickable: true }}
+
                 >
                     <SwiperSlide>
                         <div className='project'>
                             <Card
-                                emoji={prj4}
+                                emoji={SkillSphere}
+                                heading={'SkillSphere'}
+                                detail={
+"                                    Acomprehensive online learning platform using Next.js and Express.js. Features include user authentication(JWT, Email), course creation and management, video streaming, payment integration, and interactive user interfaces. Implemented RESTful APIs for seamless client-server communication and optimized performance for a smooth user experience."} 
+                               techs={'Vimeo, Stripe, JWT Authentication, NextJs, ExpressJs, EmailJs'}
+                                link={'https://github.com/raja-0007/ByteBLOG'}
+                            />
+                        </div>
+
+
+
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='project'>
+                            <Card
+                                emoji={ByteBLOG}
                                 heading={'ByteBLOG'}
-                                detail={'This is a bloging website in which users can login, create personalised blogs and react to each other’s blogs ( likes, comments ).'}
+                                detail={'This is a dynamic blogging website using React.js for the front end and Express.js for the backend. Enabled users to create, like, and comment on blogs, fostering an interactive community. Implemented a robust user authentication system to ensure secure user interactions.'}
                                 techs={'Reactjs, nodejs, expressjs, mongodb, Bootstrap, Jquery'}
                                 link={'https://github.com/raja-0007/ByteBLOG'}
                             />
@@ -47,10 +63,12 @@ function Portfolio() {
                     <SwiperSlide>
                         <div className='project'>
                             <Card
-                                emoji={prj2}
-                                heading={'Noteit'}
-                                detail={'a user-friendly notes app using reactjs which enables the user to create, edit, archive, delete, search the notes and this also enables users to set and manage remainders.'}
-                                techs={'Reactjs, nodejs, expressjs, mongodb, Jquery, Bootstrap'}
+                                emoji={Agro}
+                                heading={'Agro'}
+                                detail={
+"                                    Agro is a full-stack application using Next.js and Express.js for farmers to optimize crop yield and fertilizer usage. Integrated a weather API to provide real-time weather updates and tailored recommendations. Implemented OTP verification via email to ensure secure user registration."
+                                                                }
+                                techs={'NextJs, ExpressJs, EmailJs, WeatherApi, Framer-motion, Python'}
                                 link={'https://github.com/raja-0007/Noteit'}
                             />
                         </div>

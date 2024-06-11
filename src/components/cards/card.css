@@ -19,9 +19,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 200px;
+    width: 300px;
     justify-content: center;
-    gap: 3rem;
+    gap: 20px;
 }
 .card>:nth-child(1){
     width: 800px;
@@ -37,9 +37,12 @@
 }
 .carddiv-body>:nth-child(3){
     text-decoration: none;
+    color: gray;
 }
+        
 
-.c-btn{
+.visitLink{
+    text-decoration: none;
     background-color: white;
     box-shadow: 0px 19px 60px hsl(0, 0%, 0%,.08);
     padding: 5px 10px;
@@ -51,6 +54,20 @@
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
+    background-color: orange;
+    padding:5px 10px;
+    border-radius: 15px;
+    border: 0px;
+    outline: 0px;
+    color: white;
+    border: 1px solid hsl(39, 100%, 50%);
+    box-shadow: 0px 0px 10px 1px hsl(39, 100%, 50%) ;
+}
+.visitLink:hover{
+    background-color: white;
+    color: orange;
+    border: 1px solid hsl(39, 100%, 50%);
+
 }
 @media screen and (max-width:998px) {
     .card{

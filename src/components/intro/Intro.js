@@ -20,8 +20,7 @@ function Intro() {
                         color: darkmode ? 'white' : ''
                     }}>Hi! I am</span>
                     <span>Raja Daragani</span>
-                    <span>Web developer with high level of knowledge in web designing
-                        and development, producing the quality work
+                    <span>Has the ability to accomplish tasks and goals with effective teamwork, to maintain good relationships with fellow employees. Wishing to hold a responsible position in an esteemed organization that would make optimum use of my knowledge and skills and help me grow professionally in my career.
                     </span>
 
                 </div>

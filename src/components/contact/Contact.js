@@ -29,7 +29,7 @@ function Contact() {
     }
     const changehandler=(e)=>{
         
-        if(e.target.name == 'from_name'){
+        if(e.target.name == 'to_name'){
             setName(e.target.value)
         }
         else if(e.target.name == 'from_email'){
@@ -53,8 +53,9 @@ function Contact() {
             </div>
             <div className='col-7 contact-right mx-auto'>
                 <form ref={form} onSubmit={sendEmail} className='mx-auto' onChange={changehandler}>
-                    <input type='text' className='userinp' name='from_name' placeholder='Name' value={name} ></input>
+                    <input type='text' className='userinp' name='to_name' placeholder='Name' value={name} ></input>
                     <input type='email' className='userinp' name='from_email' placeholder='Email' value={email} ></input>
+                    <input type='email' className='userinp' name='to_email' placeholder='Email' value={'rajadaragani07@gmail.com'} hidden ></input>
                     <textarea name='message' className='userinp c-textarea' placeholder='Message' value={message} ></textarea>
                     <input type='submit' value='Send' className='btns c-btn'></input>
                     <span id='thanks'>{done && 'thanks for contacting'}</span>

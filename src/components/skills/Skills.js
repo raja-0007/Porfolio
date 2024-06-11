@@ -10,7 +10,9 @@ import jquery from '../images/jquery.png'
 import css from '../images/css.png'
 import bootstrap from '../images/bootstrap.png'
 import javascript from '../images/javascript.png'
-import resume from './My Resume4.pdf'
+import nextjs from '../images/nextjs.png'
+import tailwind from '../images/tailwind.png'
+import resume from './MyResume.pdf'
 import { motion } from 'framer-motion'
 import { themecontext } from '../../Context'
 function Skills() {
@@ -53,9 +55,11 @@ function Skills() {
                                     color: darkmode ? 'white' : ''
                                 }}>Frontend Libraries</span>
                                 <ul>
+                                    <li>Reactjs</li>
+                                    <li>Nextjs</li>
+                                    <li>Tailwind</li>
                                     <li>Bootstrap</li>
                                     <li>Jquery</li>
-                                    <li>Reactjs</li>
                                 </ul>
                             </span>
 
@@ -135,6 +139,12 @@ function Skills() {
                     </div>
                     <div className='p-seccircle'>
                         <img className='p-img' src={expressjs}></img>
+                    </div>
+                    <div className='p-seccircle'>
+                        <img className='p-img' src={nextjs}></img>
+                    </div>
+                    <div className='p-seccircle'>
+                        <img className='p-img' src={tailwind}></img>
                     </div>
                     <motion.div
                         initial={{ rotate: -65 }}

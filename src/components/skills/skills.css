@@ -64,8 +64,8 @@
 }
 .p-backcircle{
     position: relative;
-    width: 28rem;
-    height: 28rem;
+    width: 29rem;
+    height: 29rem;
     border-radius: 100%;
     box-shadow: 0px 0px 24px 3px silver;
     
@@ -111,20 +111,28 @@
     right: 35%;
 }
 .p-backcircle>:nth-child(1){
-    top: 2rem;
-    right: 3%;
+    top: 10rem;
+    right: -8%;
 }
 .p-backcircle>:nth-child(2){
-    top: 21rem;
-    right: 3%;
+    top: 24rem;
+    right: 15%;
 }
 .p-backcircle>:nth-child(3){
-    top: 21rem;
-    left: 3%;
+    top: 24rem;
+    left: 14%;
 }
 .p-backcircle>:nth-child(4){
-    top: 2rem;
-    left: 3%;
+    top: 13rem;
+    left: -7%;
+}
+.p-backcircle>:nth-child(5){
+    top: 0rem;
+    left: 15%;
+}
+.p-backcircle>:nth-child(6){
+    top: 0rem;
+    right: 15%;
 }
 .p-seccircle{
     width: 5rem;
@@ -158,6 +166,7 @@
     color: black;
 }
 .skilldetails{
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;

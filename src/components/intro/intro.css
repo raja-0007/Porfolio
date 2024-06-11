@@ -42,7 +42,7 @@
 .i-name>:nth-child(3){
     margin-top: 10px;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 16px;
     color: gray;
 }
 .i-btn{
@@ -84,6 +84,7 @@
 }
 .i-pic{
     width: 400px;
+    
     border-radius: 100%;
 }
 .i-floatingdiv{
