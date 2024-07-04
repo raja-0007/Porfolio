@@ -29,6 +29,9 @@
     display: flex;
     flex-direction: row;
 }
+.blur{
+    backdrop-filter: blur(3px); /* Applies the blur effect */
+}
 .n-right{
     display: flex;
     justify-content: flex-end;
