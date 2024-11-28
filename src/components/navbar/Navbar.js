@@ -46,6 +46,11 @@ function Navbar() {
               local_activity
             </span>
           </Link>
+          <Link className='navlink' spy={true} to={'tools'} smooth={true}>
+            <span class="material-symbols-outlined">
+              local_activity
+            </span>
+          </Link>
           <Link className='navlink' spy={true} to={'Contact'} smooth={true}>
             <span class="material-symbols-outlined">
               contact_mail
@@ -75,6 +80,9 @@ function Navbar() {
 
             <Link spy={true} to={'Portfolio'} smooth={true}>
               <li>Projects</li>
+            </Link>
+            <Link spy={true} to={'tools'} smooth={true}>
+              <li>Tools</li>
             </Link>
 
 

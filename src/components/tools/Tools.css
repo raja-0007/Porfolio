@@ -1,0 +1,68 @@
+.tools{
+    padding: 0 3rem;
+    height: fit-content;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   margin-top: 7rem;
+   padding-top: 3rem;
+  
+    
+}
+
+.tools>:nth-child(1){
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.tools>:nth-child(2){
+    color: orange;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.toolsDiv{
+   padding-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width: 40%;
+    margin: auto;
+}
+
+.tool{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+
+}
+
+.i-floatingdiv-tools{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.toolImg{
+    width: 60px;
+    height: 60px;
+    border: 2px solid orange;
+    padding: 10px;
+    border-radius: 40px;
+    overflow: hidden;
+
+}
