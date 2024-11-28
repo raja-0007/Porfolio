@@ -28,7 +28,7 @@ function Card({ emoji, heading, detail, link, techs }) {
         </a>
 
       </div>
-      <button style={{position:'absolute', right:2, bottom:2, backgroundColor:'hsl(39, 100%, 50%)', borderRadius:10, padding:6, color:'white'}} onClick={() => setDetails(!details)}>details {!details ? <FaCircleChevronDown />:<FaCircleChevronUp />}      </button>
+      <button style={{position:'absolute', right:2, bottom:2, backgroundColor:'hsl(39, 100%, 50%)', borderRadius:10, padding:6, color:'white'}} className='flex items-center gap-1' onClick={() => setDetails(!details)}>details {!details ? <FaCircleChevronDown />:<FaCircleChevronUp />}      </button>
 
     </div>
   )

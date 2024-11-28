@@ -70,6 +70,12 @@
     color: black;
 }
 
+.n-ul>*:active{
+    cursor: pointer;
+    text-decoration: none;
+    color: orange;
+}
+
 .n-name{
     font-weight: 600;
     font-size: 1.1em;

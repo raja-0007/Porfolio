@@ -24,7 +24,7 @@ function Navbar() {
 
 
   return (
-    <div className='row n-wrapper nav sticky-top blur' id='Navbar'>
+    <div className='row n-wrapper nav sticky-top backdrop-blur-sm' id='Navbar'>
       <div className='col-md-5 n-left '>
         <div className='n-name'>Raja</div>
         <span>

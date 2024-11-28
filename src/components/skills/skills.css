@@ -5,7 +5,7 @@
     height: auto;
     margin-bottom: 8rem;
     margin-top: 3rem;
-    padding-top: 3rem;
+    padding-top: 6rem;
     
 }
 .skills-left{
@@ -111,29 +111,42 @@
     top: 6rem;
     right: 35%;
 }
+
+
+
+/* --------------------------- back circle ------------------------ */
 .p-backcircle>:nth-child(1){
-    top: 10rem;
-    right: -8%;
+    top: 16rem;
+    right: -5%;
 }
 .p-backcircle>:nth-child(2){
-    top: 24rem;
-    right: 15%;
+    top: 25rem;
+    right: 25%;
 }
 .p-backcircle>:nth-child(3){
-    top: 24rem;
-    left: 14%;
+    top: 25rem;
+    left: 25%;
 }
 .p-backcircle>:nth-child(4){
-    top: 13rem;
-    left: -7%;
+    top: 16rem;
+    left: -5%;
 }
+
 .p-backcircle>:nth-child(5){
-    top: 0rem;
-    left: 15%;
+    top: 7rem;
+    left: -5%;
 }
 .p-backcircle>:nth-child(6){
-    top: 0rem;
-    right: 15%;
+    top: -1rem;
+    left: 25%;
+}
+.p-backcircle>:nth-child(7){
+    top: -1rem;
+    right: 23%;
+}
+.p-backcircle>:nth-child(8){
+    top: 7rem;
+    right: -5%;
 }
 .p-seccircle{
     width: 5rem;
@@ -142,6 +155,7 @@
     position: absolute;
     border: 5px solid #ebebeb;
     display: flex;
+    overflow: hidden;
     align-items: center;
     justify-content: center;
     background-color: white;

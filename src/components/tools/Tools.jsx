@@ -58,14 +58,14 @@ const Tools = () => {
 
     }
     return (
-        <div className='tools ' id='tools'>
+        <div className='tools' id='tools'>
             <span style={{
                 background: darkmode ? 'black' : '',
                 color: darkmode ? 'white' : ''
             }}>Libraries and</span>
             <span>Tools</span>
 
-            <div className='toolsDiv'>
+            <div className='toolsDiv gap-14'>
                 {toolsList.map((tool, i) => {
                     return (
                         

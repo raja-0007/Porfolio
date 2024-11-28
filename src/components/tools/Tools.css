@@ -6,7 +6,7 @@
    justify-content: center;
    text-align: center;
    margin-top: 7rem;
-   padding-top: 3rem;
+   padding-top: 6rem;
   
     
 }
@@ -58,8 +58,8 @@
 }
 
 .toolImg{
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border: 2px solid orange;
     padding: 10px;
     border-radius: 40px;
