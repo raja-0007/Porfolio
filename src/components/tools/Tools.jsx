@@ -79,7 +79,7 @@ const Tools = () => {
 
                             <div className='toolImg' style={{
                                 background: darkmode ? 'white' : 'white',
-                            }}><img style={{ width: '100%' }} src={icons[tool]} /></div><p style={{
+                            }}><img style={{ width: '100%' }} src={icons[tool]} alt='tool'/></div><p style={{
                                 background: darkmode ? 'black' : '',
                                 color: darkmode ? 'white' : ''
                             }}>{tool}</p>

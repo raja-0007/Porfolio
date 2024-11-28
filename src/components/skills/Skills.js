@@ -128,25 +128,28 @@ function Skills() {
                     transition={{ duration: 3, type: 'spring' }}
                     className='p-backcircle'>
                     <div className='p-seccircle'>
-                        <img className='p-img' src={reactjs}></img>
+                        <img className='p-img' alt='skill' src={reactjs}></img>
                     </div>
                     <div className='p-seccircle'>
-                        <img className='p-img' src={nodejs}></img>
+                        <img className='p-img' alt='skill' src={nodejs}></img>
                     </div>
                     <div className='p-seccircle'>
-                        <img className='p-img' src={mongodb}></img>
+                        <img className='p-img' alt='skill' src={mongodb}></img>
                     </div>
                     <div className='p-seccircle'>
-                        <img className='p-img' src={expressjs}></img>
+                        <img className='p-img' alt='skill' src={expressjs}></img>
                     </div>
                     <div className='p-seccircle'>
                         <img className='p-img' src={github}></img>
                     </div>
                     <div className='p-seccircle'>
-                        <img className='p-img' src={nextjs}></img>
+                        <img className='p-img' alt='skill' src={nextjs}></img>
                     </div>
                     <div className='p-seccircle'>
-                        <img className='p-img' src={tailwind}></img>
+                        <img className='p-img' src={github}></img>
+                    </div>
+                    <div className='p-seccircle'>
+                        <img className='p-img' alt='skill' src={tailwind}></img>
                     </div>
                     <div className='p-seccircle'>
                         <div className='p-img'><svg width="60" height="60" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -159,6 +162,7 @@ function Skills() {
                         </svg></div>
                         
                     </div>
+                    
                     <motion.div
                         initial={{ rotate: -65 }}
                         whileInView={{ rotate: 0 }}
@@ -166,19 +170,19 @@ function Skills() {
                         transition={{ duration: 3, type: 'spring' }}
                         className='p-maincircle'>
                         <div className='p-seccircle'>
-                            <img className='p-img' src={javascript}></img>
+                            <img className='p-img' alt='skill' src={javascript}></img>
                         </div>
                         <div className='p-seccircle'>
-                            <img className='p-cssimg' src={css}></img>
+                            <img className='p-cssimg' alt='skill' src={css}></img>
                         </div>
                         <div className='p-seccircle'>
-                            <img className='p-img' src={bootstrap}></img>
+                            <img className='p-img' alt='skill' src={bootstrap}></img>
                         </div>
                         <div className='p-seccircle'>
-                            <img className='p-img' src={jquery}></img>
+                            <img className='p-img' alt='skill' src={jquery}></img>
                         </div>
                         <div className='p-seccircle'>
-                            <img className='p-img' src={html}></img>
+                            <img className='p-img' alt='skill' src={html}></img>
                         </div>
                     </motion.div>
                 </motion.div>
